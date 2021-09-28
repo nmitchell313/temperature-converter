@@ -15,7 +15,7 @@ public class TemperatureConverter {
     }
 
     public static double convertC2F(double celsius) {
-        return 9 * celsius / 5 + 32;
+        return 1.8 * celsius + 32; // C = (F - 32) / 1.8
     }
 
 }
